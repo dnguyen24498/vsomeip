@@ -684,3 +684,6 @@ if (${CMAKE_SYSTEM_NAME} MATCHES "QNX")
     install(FILES ${PROJECT_BINARY_DIR}/examples/routingmanagerd/routingmanagerd
         DESTINATION bin/vsomeip_tests/examples/routingmanagerd)
 endif()
+
+ install(FILES ${PROJECT_BINARY_DIR}/examples/routingmanagerd/routingmanagerd
+        DESTINATION bin/routingmanagerd)
