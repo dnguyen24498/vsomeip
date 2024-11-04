@@ -686,4 +686,4 @@ if (${CMAKE_SYSTEM_NAME} MATCHES "QNX")
 endif()
 
  install(FILES ${PROJECT_BINARY_DIR}/examples/routingmanagerd/routingmanagerd
-        DESTINATION bin/routingmanagerd)
+        DESTINATION bin)
